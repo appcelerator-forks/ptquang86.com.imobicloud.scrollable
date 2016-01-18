@@ -1,0 +1,13 @@
+/*
+
+// with classes is photos
+
+// ".photos-scroller": {}
+".photos-scroller[platform=ios]": { showPagingControl: true, pagingControlColor: 'transparent', pagingControlHeight: 103, overlayEnabled: true }
+	".photo": { width: 375, height: 336.5 }
+".photos-paging[platform=android]": { height: 103, bottom: 0, touchEnabled: false }
+	".photos-paging-inner[platform=android]": { width: Ti.UI.SIZE, height: 5, layout: 'horizontal', touchEnabled: false }
+		".photos-paging-dot[platform=android]": { width: 5, height: 5, left: 4.5, borderRadius: 2.5, backgroundColor: '#fff', touchEnabled: false }
+		".photos-paging-dot-on[platform=android]": { opacity: 0.97 }
+		".photos-paging-dot-off[platform=android]": { opacity: 0.45 }
+*/		
